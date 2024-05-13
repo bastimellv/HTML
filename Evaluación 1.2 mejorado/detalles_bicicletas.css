@@ -1,0 +1,26 @@
+.details-container {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    flex: 0 0 70%;
+}
+
+.details {
+    flex: 0 0 50%;
+    padding-left: 20px;
+}
+
+.dropdown button img {
+    max-width: 30px; /* Ajusta el ancho máximo según sea necesario */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+.btn-purple {
+    background-color: purple;
+    color: white;
+    border: none;
+}
+.text-center {
+    margin-bottom: 40px; /* Puedes ajustar el valor según sea necesario */
+}
